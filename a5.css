@@ -6,3 +6,23 @@ body,input,button{
 	margin-bottom: 20px;
 	font-size: 18px;
 }
+#plus{
+	width: 66px;
+	height: 66px;
+}
+
+#minus{
+	width: 66px;
+	height: 66px;
+}
+
+#multi{
+	width: 66px;
+	height: 66px;
+}
+
+#divide{
+	width: 66px;
+	height: 66px;;
+}
+

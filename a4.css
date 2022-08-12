@@ -2,52 +2,52 @@ body,input,button{
 	font-size: 44px;
 }
 #plus{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img1.png);
 }
 
 #minus{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img2.png);
 }
 
 #multi{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img3.png);
 }
 
 #divide{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img4.png);
 }
 
 
 
 #plus1{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img5.png);
 }
 
 #minus1{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img6.png);
 }
 
 #multi1{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img7.png);
 }
 
 #divide1{
-	width: 101px;
-	height: 101px;
+	width: 66px;
+	height: 66px;
 	background-image: url(img8.png);
 }
 

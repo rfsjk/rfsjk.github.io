@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="a4.css">
+	<title>Калькулятор</title>
+</head>
+<body>
+	<!-- Код начало -->
+	<script>
+		var op;
+
+		function func(){
+			var result;
+			var num1 = Number(document.getElementById('num1').value);
+			var num2 = Number(document.getElementById('num2').value);
+
+			switch(op){
+				case '+':
+					result = num1 + num2;
+					break;
+
+				case '-':
+					result = num1 - num2;
+					break;
+
+				case '*':
+					result = num1 * num2;
+					break;
+
+				case '/':
+					result = num1 / num2;
+					break;
+			}
+			document.getElementById('result').innerHTML = result;
+		}
+		
+	</script>
+	<!-- Код конец -->
+
+
+	<!-- Поле ввода первого числа -->
+	<div class="div1">
+		<a href="index.html"><button>Тема 1</button></a>
+		<a href="index2.html"><button>Тема 2</button></a>
+	</div>
+	<input id="num1">
+
+	<!-- Блок с кнопками -->
+	<div class="operator_btns">
+		<button id="plus1" onclick="op = '+' "></button>
+		<button id="minus1" onclick="op = '-' "></button>
+		<button id="multi1" onclick="op = '*' "></button>
+		<button id="divide1" onclick="op = '/' "></button>
+	</div>
+
+	<!-- Поле ввода второго числа -->
+	<input id="num2">
+
+	<!-- Кнопка для рассчетов -->
+	<br>
+	<button onclick="func()">Посчитать</button>
+	<p id="result"></p> 
+
+</body>
+</html>

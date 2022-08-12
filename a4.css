@@ -1,0 +1,56 @@
+body,input,button{
+	font-size: 44px;
+}
+#plus{
+	width: 101px;
+	height: 101px;
+	background-image: url(img1/img1.png);
+}
+
+#minus{
+	width: 101px;
+	height: 101px;
+	background-image: url(img1/img2.png);
+}
+
+#multi{
+	width: 101px;
+	height: 101px;
+	background-image: url(img1/img3.png);
+}
+
+#divide{
+	width: 101px;
+	height: 101px;
+	background-image: url(img1/img4.png);
+}
+
+
+
+#plus1{
+	width: 101px;
+	height: 101px;
+	background-image: url(img2/img1.png);
+}
+
+#minus1{
+	width: 101px;
+	height: 101px;
+	background-image: url(img2/img2.png);
+}
+
+#multi1{
+	width: 101px;
+	height: 101px;
+	background-image: url(img2/img3.png);
+}
+
+#divide1{
+	width: 101px;
+	height: 101px;
+	background-image: url(img2/img4.png);
+}
+
+.div1{
+	margin-bottom: 20px;
+}
